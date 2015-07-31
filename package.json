@@ -1,6 +1,6 @@
 {
   "name": "eddystone-uid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Eddystone UID convertor",
   "license": "MIT",
   "repository": "ragingwind/eddystone-uid",
