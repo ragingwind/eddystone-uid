@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "Eddystone UID convertor",
   "license": "MIT",
-  "repository": "ragingwind/eddystone-uid",
+  "repository": "ragingwind/node-eddystone-uid",
   "author": {
     "name": "ragingwind",
     "email": "ragingwind@gmail.com",
