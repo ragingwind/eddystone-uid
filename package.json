@@ -1,0 +1,33 @@
+{
+  "name": "eddystone-uid",
+  "version": "0.0.0",
+  "description": "Eddystone UID convertor",
+  "license": "MIT",
+  "repository": "ragingwind/eddystone-uid",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eddystone",
+    "UID",
+    "eddystone UID"
+  ],
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
