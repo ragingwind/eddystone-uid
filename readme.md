@@ -1,6 +1,6 @@
-# eddystone-uid [![Build Status](https://travis-ci.org/ragingwind/eddystone-uid.svg?branch=master)](https://travis-ci.org/ragingwind/eddystone-uid)
+# eddystone-uid
 
-> My first-class module
+> Eddystone UID convertor
 
 
 ## Install
@@ -16,10 +16,16 @@ $ npm install --save eddystone-uid
 var eddystoneUid = require('eddystone-uid');
 
 eddystoneUid.toBeaconId('123456');
+//=> 313233343536
+
 eddystoneUid.toBeaconId('app-id');
+//=> 6170702d6964
+
 eddystoneUid.toNamespace('https://goo.gl/r8iJqW');
+//=> randomly
+
 eddystoneUid.toNamespace('8b0ca750-e7a7-4e14-bd99-095477cb3e77');
-//=> unicorns & rainbows
+//=> 8b0ca750095477cb3e77
 ```
 
 ## API
