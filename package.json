@@ -24,7 +24,7 @@
     "eddystone UID"
   ],
   "dependencies": {
-    "node-uuid": "^1.4.3"
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "*"
